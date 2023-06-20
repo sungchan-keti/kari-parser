@@ -1,4 +1,3 @@
-//test
 const dgram = require('dgram');
 const { SerialPort } = require('serialport');
 const os = require('os');
@@ -27,10 +26,6 @@ let id_ip_dic = {1: '172.30.10.30', 2: '172.30.10.30', 3: '172.30.10.30', 255: '
                  4: '172.30.10.30', 5: '172.30.10.30', 6: '172.30.10.30', 7: '172.30.10.255',
                  8: '172.30.10.30', 9: '172.30.10.30', 10: '172.30.10.30'};
 console.log(id_ip_dic);
-
-
-
-let uiuipp = 1000;
 
 
 udpSocket.on('message', (message, rinfo) => {
